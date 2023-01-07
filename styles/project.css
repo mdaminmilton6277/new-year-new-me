@@ -1,0 +1,204 @@
+* {
+    margin: 0%;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.first-nav {
+    position: absolute;
+    width: 1400px;
+    height: 600px;
+    background: url(../images/banner/collected.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid gainsboro;
+}
+
+.title {
+    width: 655px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 100px;
+    top: 216px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 66px;
+    color: rgb(19, 129, 129);
+
+
+}
+
+.title-div {
+    margin-top: 80px;
+    margin-left: 20px;
+    
+}
+
+.description {
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    right: 876px;
+    top: 318px;
+    left: 100px;
+    color: #0e587c;
+}
+
+.primary-btn {
+    margin-left: 100px;
+    margin-top: 140px;
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(69, 130, 211);
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+
+}
+
+
+
+.primary-btn2 {
+    width: 160px;
+    height: 60px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    font-size: 20px;
+}
+
+/* main section start */
+.second-nav {
+    border-top: slategray;
+    height: 700px;
+    width: 1400px;
+    margin: 587px 100px 10px 0px;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+}
+
+.heading {
+    justify-content: center;
+    text-align: center;
+    margin-left: 600px;
+    font-size: 60px;
+    width: 450px;
+    top: 200px;
+
+}
+
+.second-desc {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 100px;
+    font-size: 35px;
+}
+
+.list-items {
+    margin-top: 20px;
+    margin-left: 600px;
+    font-size: 30px;
+}
+
+/* my plans section */
+.my-plans {
+    font-size: 65px;
+    color: rgb(49, 28, 105);
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+.planned-items {
+    display: flex;
+    height: 100px 600px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+#name {
+    color: rgb(12, 42, 82);
+    font-size: 30px;
+}
+
+#sub {
+    color: rgb(55, 0, 255);
+    font-size: 20px;
+}
+
+.watch {
+    height: 300px;
+    width: 1100px;
+
+}
+
+
+
+.contact-div {
+    
+    width: 100%;
+    height: 300px;
+    background-image: url('/images/watch.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    margin-left: 70px;
+    /* color: #000000; */
+    font-size: 20px;
+    
+
+}
+.positive{
+    color: rgb(0, 0, 0);
+    background-color: #0e577c3a;
+    width: 400px;
+}
+
+
+/* footer items */
+
+.footer-div{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+   padding: 60px ;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-text{
+margin-bottom: 8px;
+}
+
+.input-field{
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.contact-us{
+    margin-right: 30px;
+}
+.subscribe {
+    margin-top: 8px;
+    padding: 7px;
+    border-radius: 5px;
+    color: rgb(197, 44, 6);
+}
+
+.social-link{
+    margin-top: 10px;
+    display: flex;
+    
+    justify-content: space-center;
+}
+
+.social-icon{
+    margin-left: 8px;
+}
